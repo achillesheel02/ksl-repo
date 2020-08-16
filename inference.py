@@ -8,8 +8,8 @@ from tqdm import tqdm
 import ffmpeg
 
 TEST_VIDEO_PATH = 'test_videos/'
-test_videos_paths = glob.glob(TEST_VIDEO_PATH + 'cam_out_h2640047.mov')
-MODEL_PATH = 'model_2_pitch_1.h5'
+test_videos_paths = glob.glob(TEST_VIDEO_PATH + '*.mov')
+MODEL_PATH = 'models/model.h5'
 model = load_model(MODEL_PATH)
 classes = utils.generate_labels().classes_
 SEQ_LENGTH = utils.get_sequence_length()
