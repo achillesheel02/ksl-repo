@@ -16,9 +16,9 @@ def calculateDistance(x2, y2, x1, y1):
 
 
 # paths
-CSV_PATH = 'csv_outputs_pitch/'
+CSV_PATH = 'csv_outputs/'
 TEST_DATA_PATH = 'test_data/'
-TEST_DATA_ANNOTATED_PATH = 'test_data_annotated'
+TEST_DATA_ANNOTATED_PATH = 'test_data_annotated/'
 
 SEQ_LENGTH = 50
 
